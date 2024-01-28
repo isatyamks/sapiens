@@ -19,38 +19,73 @@
   <link rel="stylesheet" href="../css/styles.css">
 
   <style>
-    /* Scrollbar styling */
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
+    /* General Styles */
 
-    body::-webkit-scrollbar {
-      width: 9px;
-    }
+body::-webkit-scrollbar {
+  width: 9px;
+}
 
-    body::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background-color: rgba(29, 17, 17, 0.788);
-    }
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(29, 17, 17, 0.788);
+}
 
-    body::-webkit-scrollbar-track {
-      background-color: rgb(230, 223, 223);
-      border-radius: 10px;
-    }
+body::-webkit-scrollbar-track {
+  background-color: rgb(230, 223, 223);
+  border-radius: 10px;
+}
 
-    /* Profile Modal */
+/* Profile Section */
 
-    .card.profile-card {
-      width: 100%;
-      margin: 0;
-    }
+.profile-section {
+  text-align: center;
+}
 
-    #profileModal .modal-content,
-    #profileModal .modal-content .modal-body,
-    #profileModal .modal-content .modal-body .card.profile-card {
-      border-radius: 10px;
-    }
+.profile-photo img {
+  width: 200px; 
+  height: 200px;
+  border-color: #2980b9;
+}
 
-    #profileModal .modal-content .modal-body .card.profile-card img {
-      border-radius: 10px 10px 0 0;
-    }
+.profile-name {
+  font-family: "Lora", serif;
+  font-size: 48px;
+  color: #2c3e50; /* Name color */
+  margin-bottom: 5px;
+}
+
+.profile-info {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  color: #34495e; /* Info color */
+  margin-bottom: 15px;
+}
+
+
+
+
+/* Hover effect for social links */
+
+
+/* Profile Modal */
+
+.card.profile-card {
+  width: 100%;
+  margin: 0;
+}
+
+#profileModal .modal-content,
+#profileModal .modal-content .modal-body,
+#profileModal .modal-content .modal-body .card.profile-card {
+  border-radius: 10px;
+}
+
+#profileModal .modal-content .modal-body .card.profile-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+ 
   </style>
 </head>
 
@@ -184,16 +219,25 @@
         <article class="card card-cascade narrower">
           <!-- Card heading -->
           <section class="view gradient-card-header purple-gradient narrower py-3 mb-4 d-flex justify-content-center align-items-center">
-            <span class="white-text mx-3">Student Grade Details - Semester 1</span>
+            <span class="white-text mx-3">Student Profile</span>
           </section>
           <section>
             <section class="px-4">
   <!-- Student Profile -->
+  
+  
   <div class="profile-section d-flex justify-content-center align-items-center flex-column mb-4">
-    <img src="path_to_student_photo.jpg" class="profile-photo rounded-circle mb-3" alt="Student Photo">
-    <h4 class="profile-name">John Doe</h4>
-    <p class="profile-info">Roll No: 123456<br>Batch: 2023-2027<br>Branch: Computer Science Engineering</p>
+    <div class="profile-photo">
+      <img src="../img/satyam.jpg" class="profile-photo rounded-circle" alt="profile-photo">
+      <div class="profile-edit">
+        
+      </div>
+    </div>
+    <h4 class="profile-name">Satyam Kumar</h4><br><br>
+    <p class="profile-info">Roll No: 231B297<br>Batch: B10<br>Branch: Computer Science Engineering<br>Year: First </p>
+   
   </div>
+  
 
   <!-- Table -->
   <section class="table-wrapper">
