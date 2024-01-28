@@ -24,5 +24,5 @@ To access the JUET Portal, use the following credentials:
 This project, "JUET Portal," is a product of Team Sapiens and was developed solely for participation in the "Hack the Trivia" event. It is not an official product of Jaypee University of Engineering and Technology.😁
 
 For any inquiries or feedback, please contact:
-- Satyam Kumar (Team Leader) - [satyam.kumar@example.com](mailto:isatyamks@gmail.com)
+- Satyam Kumar (Team Leader) - [isatyamks@gmail.com](mailto:isatyamks@gmail.com)
 
