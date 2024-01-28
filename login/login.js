@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         // Check if username and password match
-        if (username === "231b297" && password === "123a") {
+        if (username === "231b297" && password === "isatyamks") {
             
             window.location.href = "../index.html";
         } else {
