@@ -7,6 +7,8 @@
 ## Project Details
 The **JUET Portal** is a web application developed by Team Sapiens as part of the "Hack the Trivia" event. Here we build a system for our college, same as Webkiosk, but with some extra enhancements. We add a live feed to give attention to events going on, and we make the whole interface more interesting and beautiful to engage students and faculty. We also add an API for Google Calendar in this to view the holidays,class schedules, and exam schedules in one place. We also added a resource section that contains all the study materials provided by teachers.
 
+## JUET Portal----->  [Web](isatyamks.github.io/sapiens)
+
 ### Features
 - **Authentication:** Users can securely log in using their credentials.
 - **Live Feeds:** A personalized dashboard displays relevant information such as upcoming events, announcements, and deadlines.
